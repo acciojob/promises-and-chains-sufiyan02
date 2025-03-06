@@ -1,6 +1,5 @@
 //your JS code here. If required.
 
-document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("btn");
 
   btn.addEventListener("click", function (event) {
@@ -32,4 +31,3 @@ document.addEventListener("DOMContentLoaded", function () {
         alert(err);
       });
   });
-});
